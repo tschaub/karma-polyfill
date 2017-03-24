@@ -1,0 +1,25 @@
+{
+  "name": "karma-polyfill",
+  "version": "0.0.0",
+  "description": "Loads polyfills from polyfill.io before running Karma tests",
+  "main": "index.js",
+  "homepage": "https://github.com/tschaub/karma-polyfill",
+  "author": {
+    "name": "Tim Schaub",
+    "url": "http://tschaub.net/"
+  },
+  "keywords": [
+    "karma-plugin",
+    "karma-framework",
+    "polyfill",
+    "shim"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tschaub/karma-polyfill.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tschaub/karma-polyfill/issues"
+  },
+  "license": "MIT"
+}
