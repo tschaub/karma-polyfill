@@ -1,5 +1,7 @@
 # karma-polyfill
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tschaub/karma-polyfill.svg)](https://greenkeeper.io/)
+
 Loads polyfills from https://polyfill.io/ before running tests.
 
 ## Use
