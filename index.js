@@ -1,5 +1,3 @@
-var path = require('path');
-
 var init = function(files, polyfill) {
   var url;
   if (polyfill) {

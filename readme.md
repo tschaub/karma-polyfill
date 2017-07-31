@@ -1,12 +1,13 @@
-# karma-polyfill
+# karma-polyfill-default
 
 Loads polyfills from https://polyfill.io/ before running tests.
+This package requests the polyfill with no paremeters by default.
 
 ## Use
 
 Install the plugin with `npm`:
 
-    npm install karma-polyfill --save-dev
+    npm install karma-polyfill-default --save-dev
 
 Configure Karma to load the plugin as a framework and specify [the features](https://polyfill.io/v2/docs/features/) you need polyfilled:
 
@@ -14,7 +15,7 @@ Configure Karma to load the plugin as a framework and specify [the features](htt
 module.exports = function(config) {
   config.set({
     frameworks: ['polyfill'],
-    polyfill: ['Promise', 'fetch'] // etc.
+    polyfill: ['Promise', 'fetch'] // etc. If polyfill doesn't exist, request url with no parameter will be used.
     // additional settings here ...
   });
 };
