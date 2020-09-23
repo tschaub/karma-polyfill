@@ -14,6 +14,7 @@ Configure Karma to load the plugin as a framework and specify [the features](htt
 module.exports = function(config) {
   config.set({
     frameworks: ['polyfill'],
+    plugins: [require('karma-polyfill')],
     polyfill: ['Promise', 'fetch'] // etc.
     // additional settings here ...
   });
